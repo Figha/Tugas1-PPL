@@ -25,7 +25,7 @@ const {
     expect(calDiscnt(250000, "")).toBe(250000);
   });
 
-  test("perkalian harga yang isinya string", () => {
-    expect(recalSub("25000aaaaa", "2")).toBe("error");
+  test("Perkalian harga yang isinya tipe data string", () => {
+    expect(recalSub("25000xx", "2")).toBe("error");
   });
   
